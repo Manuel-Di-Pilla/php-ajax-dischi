@@ -1,0 +1,9 @@
+@mixin music-box{
+  width: calc((100% / 3) - 20px);
+  background-color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
