@@ -1,4 +1,12 @@
 <?php
   include __DIR__.'/database.php';
-  echo $_GET['select'];
+  $title = $_GET['titolo'];
+  $array = [];
+  foreach ($database as $value) {
+    if ($title == $value['title']) {
+      $array [] = $value;
+    } 
+  }
+  header('Content-Type: application/json');
+  echo json_encode($array);
 ?>

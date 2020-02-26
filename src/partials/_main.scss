@@ -1,5 +1,8 @@
 .main{
   margin-top: 50px;
+  h1{
+    color: white;
+  }
   .list{
     width: 50%;
     margin: 0 auto;
@@ -28,4 +31,7 @@
       }
     }
   }
+}
+.none{
+  display: none;
 }
